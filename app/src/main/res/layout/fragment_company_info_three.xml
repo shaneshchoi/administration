@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030009"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CompanyInfoFragmentThree">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:textSize="31sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:text="Career" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:textSize="25sp"
+        android:textColor="#FF9100"
+        android:fontFamily="sans-serif"
+        android:text="DCTCoder is looking for . . ." />
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:text="Network Administrators, Information Technology Specialists, IT Applications Analysts, and Software Developers." />
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="250dp"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:text="If you are a problem solver, has an in-depth knowledge of security, and has a strong communication skill, apply here to DCTCoder." />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="400dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/career" />
+    <!--https://builtin.com/career-development -->
+
+    <TextView
+        android:id="@+id/descriptionFoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="740dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#919191"
+        android:text="Copyright © 2023 DCTCoder All Rights Reserved." />
+
+</FrameLayout>
